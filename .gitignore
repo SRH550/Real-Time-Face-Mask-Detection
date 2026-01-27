@@ -1,0 +1,46 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments (including Anaconda)
+venv/
+env/
+ENV/
+.venv/
+.conda/
+conda-env/
+
+# Anaconda hidden files
+*.conda
+*.ipynb_checkpoints/
+
+# Model files and checkpoints
+*.pt
+*.pth
+*.h5
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment/secret config files
+.env
+.env.*
+
+# Streamlit cache and upload folder
+.streamlit/
+.cache/
+.uploaded_file_*
+
+# VSCode or editor-specific folders
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
